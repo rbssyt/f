@@ -636,6 +636,22 @@ if (budy.includes(`halo`)) {
 tujuh = fs.readFileSync('./assets/haysayabot.mp3');
 baby.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
+reply('https://www.instagram.com/arifirazzaq2001/')
+
+if (budy.includes(`assalamualaikum`)) {
+tujuh = fs.readFileSync('./assets/haysayabot.mp3');
+baby.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+}
+
+if (budy.includes(`bot`)) {
+tujuh = fs.readFileSync('./assets/haysayabot.mp3');
+baby.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+}
+
+if (budy.includes(`halo`)) {
+tujuh = fs.readFileSync('./assets/haysayabot.mp3');
+baby.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+}
 switch(command) {
 				case 'help':
 				case 'menu':
